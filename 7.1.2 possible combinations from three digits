@@ -1,0 +1,7 @@
+from itertools import permutations
+a, b, c = input().split()
+digits = [a, b, c]
+
+
+for perm in permutations(digits, 3):
+	print("".join(perm))
