@@ -1,0 +1,9 @@
+
+seta=set(map(int,input("Set A: ").split()))
+setb=set(map(int,input("Set B: ").split()))
+u = seta | setb
+i = seta & setb
+d = seta - setb
+print("Union:", u)
+print("Intersection:", i)
+print("Difference:", d)
