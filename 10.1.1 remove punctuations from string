@@ -1,0 +1,10 @@
+import string
+s= input()
+
+punctuations = string.punctuation
+result = ""
+for ch in s:
+	if ch not in punctuations:
+		result+= ch
+
+print(result)
